@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Petit+Formal+Script|Nosifer&subset=latin,latin-ext);
+
+body{
+    color: #000000;
+    font-family: Tahoma, sans-serif;
+}
+
+.kep{
+    border: 2px dotted red;
+    float: right;
+    
+}
+
+
+
+#menu a,
+#menu a:link,
+#menu a:visited{
+    color: white;
+    text-decoration: none;
+}
+#menu a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+#fejlec{
+    font-family: 'Nosifer', cursive;
+    height: 120px;
+    width: 960px;
+    padding: 0;
+    margin: 0 auto;
+    
+} 
+#fejlec h1{
+    font-size: 24px;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    height: 45px;
+}
+#menu{
+    height: 35px;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#menu li{
+    display: inline;
+    margin: 0 40px;
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: large;
+}
+video{
+    width: 50%;
+    float: center;
+}
+
+img{
+    height: auto;
+    width: auto;
+}
+
+.bal{
+    float: left;
+}
+.jobb{
+    float: right;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+.content {
+    position:fixed;
+    top: 5;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+*{
+    box-sizing: border-box;
+}
+    
+  
